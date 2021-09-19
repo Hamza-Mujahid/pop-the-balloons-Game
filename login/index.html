@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+    <script defer src="./app.js"></script>
+    <title>Pop The Balloon</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="balloon-game-login">
+        <marquee behavior="alternate" direction="left right">
+            <h1>Pop The Balloons</h1>
+        </marquee>
+        <form action="../index.html">
+            <input type="email" id="userName" placeholder="Email" class="input-fields " required>
+            <input type="password" id="password" placeholder="password" class="input-fields" required>
+            <button type="submit" onclick="login()" class="input-fields"> Enter The Game</button>
+        </form>
+    </div>
+
+
+
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

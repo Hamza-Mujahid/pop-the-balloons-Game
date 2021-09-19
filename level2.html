@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pop A Balloon</title>
+
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script defer src="./init-firebase.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+
+        </nav>
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand nav_bar" href="./index.html">
+                <img src="./images/balloon Logo.png" width="30" height="30" class="nav_bar" alt="Pop The Balloons">
+                <h3>Pop the Balloons </h3>
+            </a>
+
+            <h1 class="nav_bar">Pop the balloons by moving</br>your mouse over them</h1>
+            <div class="score">
+                <ul>
+
+                </ul>
+            </div>
+
+        </nav>
+
+    </header>
+    <div>
+        <h1>level 2</h1>
+        <h1>***Pop The Dark Blue Balloons***</h1>
+    </div>
+    <div id="message">
+        <span class="span-color">Congratulations! </span> You Have Successfully Completed the task</div>
+    <div id=" balloon-pop-area ">
+        <div class="balloons ">
+            <marquee behavior="alternate" direction="right">
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="theballoon" style="background-color: #00f;"></div>
+
+            </marquee>
+            <marquee behavior="alternate" direction="left">
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+            </marquee>
+            <marquee behavior="alternate" direction="right">
+                <div class="theballoon" style="background-color: #00f;"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="theballoon" style="background-color: #00f;"></div>
+                <div class="balloon"></div>
+            </marquee>
+
+
+            <marquee behavior="alternate" direction="left">
+                <div class="balloon"></div>
+                <div class="theballoon" style="background-color: #00f;"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+                <div class="balloon"></div>
+
+            </marquee>
+        </div>
+
+    </div>
+
+    <script src="app.js "></script>
+
+</body>
+
+</html>

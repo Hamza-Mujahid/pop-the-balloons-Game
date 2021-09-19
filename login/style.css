@@ -1,0 +1,38 @@
+    body {
+        background-image: url(../images/background-icon.jpg);
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position: top;
+    }
+    
+    marquee h1 {
+        color: #0a5aaf;
+    }
+    
+    div form {
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        background-color: #eee;
+    }
+    
+    button {
+        background-color: #0a5aaf;
+        color: #eee;
+        border-radius: 50%;
+        height: 100PX
+    }
+    
+    input {
+        margin: 5px;
+        border-style: none;
+        background-color: #fafafa;
+        height: 50px;
+    }
+    
+     ::placeholder {
+        color: #555;
+        opacity: 1;
+        font-size: 100%;
+        font-family: sans-serif;
+    }
